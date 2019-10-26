@@ -2,14 +2,13 @@ import React from 'react';
 import SliderComponent from "../../Components/Slider";
 import {mainPageStyle} from "./Main.style";
 import Category from "../../Components/Category";
+import Menu from "../../Components/Menu";
 
 
 const MainPage: React.FC = () => (
     <div className={mainPageStyle().page}>
-        <div className={mainPageStyle().mainDiv}>
-            <div>
-                <img className={mainPageStyle().imgLogo} src='https://lh5.googleusercontent.com/1h22ARhfLyjk7x-b9rdElpw0aBSPh1YG416zrGfmc5BZ7gEVvxF4QpBxZXviuPFrrbe7Q8qoO2O_xq0cADBFk_CrUJH42hMYe6-5Tpf8AsiG3nV8oWo=w271'/>
-            </div>
+        <div>
+            <Menu title="Home"/>
         </div>
         <div className={mainPageStyle().div}>
             <p className={mainPageStyle().title}>Descrição do Evento</p>

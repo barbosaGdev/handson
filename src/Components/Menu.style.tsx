@@ -1,6 +1,7 @@
 import {makeStyles} from "@material-ui/core";
+import {url} from "inspector";
 
-export const handOmPageStyle = makeStyles(theme => ({
+export const MenuStyle = makeStyles(theme => ({
     mainDiv: {
         height: '340px',
         alignItems: 'center',
@@ -10,14 +11,17 @@ export const handOmPageStyle = makeStyles(theme => ({
         opacity: 0.6,
         paddingTop: 100
     },
-
-    textH3: {
-        fontSize: 45,
-        marginLeft: 60,
-        textAlign: 'left',
-
-
-
+    imgLogo:{
+        float: 'right',
+        marginRight: '100px',
+        marginTop: 20,
+        opacity: 1
+    },
+    page: {
+        width: '100%',
+        justifyContent: 'center'
+    },
+    title: {
+        color: 'red'
     }
-
 }));
